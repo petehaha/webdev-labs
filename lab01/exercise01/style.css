@@ -9,3 +9,27 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+
+section h2 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+section {
+    margin: 10px;
+    border: solid 1px #CCC;
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+section h2, section p, section button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section img {
+    width: 100%;
+}
