@@ -1,37 +1,67 @@
+header {
+    display: flex;
+    background-color: seashell;
+    justify-content: space-between;
+    align-items : center;
+    height: 10vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0cm;
+    padding-right: 1.5cm;
+}
+
+li {
+    margin-left: 5%;
+}
+
 body * {
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0cm;
 }
 
-header {
-    padding: 3vh;
-    background: #EEE;
+/*
+Add some style blocks below this line to style the card.
+*/
+
+h1 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0cm;
+    padding-left: 2%;
+    align-items : center;
 }
 
-nav ul {
-    width: 250px;
-    list-style-type: none;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
+section h2 h4{
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
-main {
-    margin: 3vh;
+section {
+    margin: 10px;
+    border: solid 1px #CCC;
+    width: 33vw;
+    padding-bottom: 20px;
 }
 
-
-@media only screen and (max-width: 1000px) {
-    /* Media queries go here */
+section h2, section p, section button, section h4{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    /* Media queries go here */
+section img {
+    width: 100%;
+}
+
+#address {
+    padding-bottom: 2%;
 }
